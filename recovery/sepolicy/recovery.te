@@ -1,0 +1,18 @@
+recovery_only(`
+type mobicore_data_file, file_type, data_file_type;
+
+allow recovery self:keystore2 add_auth;
+
+allow recovery locksettings_key:keystore2_key {
+    get_info
+    req_forced_op
+    use
+};
+
+allow recovery vold_key:keystore2_key {
+    get_info
+    manage_blob
+    req_forced_op
+    use
+};
+')
