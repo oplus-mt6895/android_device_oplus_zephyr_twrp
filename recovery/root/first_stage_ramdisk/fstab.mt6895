@@ -67,11 +67,9 @@ my_manifest /mnt/vendor/my_manifest erofs ro wait,slotselect,logical,first_stage
 
 
 vendor_dlkm /vendor_dlkm ext4 ro wait,slotselect,avb,logical,first_stage_mount
-vendor_dlkm /vendor_dlkm erofs ro wait,slotselect,avb,logical,first_stage_mount
 
 
 odm_dlkm /odm_dlkm ext4 ro wait,slotselect,avb,logical,first_stage_mount
-odm_dlkm /odm_dlkm erofs ro wait,slotselect,avb,logical,first_stage_mount
 
 
 
