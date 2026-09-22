@@ -41,3 +41,8 @@ OF_STATUS_H := 118
 OF_STATUS_INDENT_LEFT := 150
 OF_STATUS_INDENT_RIGHT := 48
 OF_CLOCK_POS := 0
+
+# Set this to 1 to replace the "Swipe up" lockscreen screen with a button
+OF_USE_LOCKSCREEN_BUTTON := 1
+
+
